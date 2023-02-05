@@ -2,7 +2,7 @@ name: "Fetch Emby releases"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * */2' # Every second day at 03:00
+    - cron: '0 3 * * */2' # Every 2nd day at 03:00
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -22,13 +22,27 @@ jobs:
         run: |
           EXIT_CODE=0
           git diff --exit-code app.properties || EXIT_CODE=$?
+          echo $EXIT_CODE
            # Set environment variable
           echo "EXIT_CODE=$EXIT_CODE" >> $GITHUB_ENV
+      - name: Install SDKMAN + Groovy
+        if: ${{ env.EXIT_CODE == 1 }}
+        run: |
+          curl -s "https://get.sdkman.io" | bash
+          source "$HOME/.sdkman/bin/sdkman-init.sh"
+          # Install a latest version of groovy
+          sdk install groovy
+      - name: Regenerate repository.xml
+        if: ${{ env.EXIT_CODE == 1 }}
+        run: | 
+          source "$HOME/.sdkman/bin/sdkman-init.sh"
+          groovy createRepository.groovy
       - name: Commit + push changes
         if: ${{ env.EXIT_CODE == 1 }}
         run: |
           git config --local user.name "Octocat"
           git config --local user.email 'octocat@users.noreply.github.com'
+          git add repository.xml
           git add app.properties
-          git commit -m "⬆️ Update emby to $EMBY_VERSION"
+          git commit -m "⬆️ Update Emby to $EMBY_VERSION"
           git push
