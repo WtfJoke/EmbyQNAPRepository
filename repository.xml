@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugins>
+  <cachechk>20230205072306</cachechk>
+  <item>
+    <name>Emby</name>
+    <internalName>emby</internalName>
+    <category>Essentials</category>
+    <type>Entertainment</type>
+    <icon100>https://emby.media/community/uploads/inline/44692/560bd2026cb12_MB3_106_87.png</icon100>
+    <icon80>https://emby.media/community/uploads/inline/44692/560bd22372364_MB3_85_70.png</icon80>
+    <description>Your personal media on any device. Bringing all of your home videos, music, and photos together into one place has never been easier. Your personal Emby Server automatically converts and streams your media on-the-fly to play on any device.</description>
+    <developer>Emby LLC</developer>
+    <developerLink>https://emby.media/</developerLink>
+    <fwVersion>4.3.4</fwVersion>
+    <version>4.7.9.0</version>
+    <platform>
+      <platformID>TS-NASX86</platformID>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.9.0/emby-server-qnap_4.7.9.0_x86_64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-X28A</platformID>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.9.0/emby-server-qnap_4.7.9.0_arm_64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-X32</platformID>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.9.0/emby-server-qnap_4.7.9.0_arm_64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-X32U</platformID>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.9.0/emby-server-qnap_4.7.9.0_arm_64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-XA28A</platformID>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.9.0/emby-server-qnap_4.7.9.0_arm_64.qpkg</location>
+    </platform>
+    <snapshot>https://emby.media/resources/Screenshot_2015-09-28-22-42-491.png</snapshot>
+    <tutorialLink>https://support.emby.media/support/solutions/articles/44001089172-home</tutorialLink>
+    <forumLink>https://emby.media/community/</forumLink>
+  </item>
+</plugins>
