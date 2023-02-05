@@ -11,6 +11,7 @@ qnap = [
 properties = loadProperties()
 rootDownloadUrl = properties.'release.download.url'
 appVersion = properties.'application.version'
+name = properties.'package.name'
 repositoryFile = new File('repository.xml')
 
 repositoryFile.withWriter(encoding) { writer ->
@@ -20,8 +21,8 @@ repositoryFile.withWriter(encoding) { writer ->
         cachechk(new Date().format('yyyyMMddhhmmss'))
 
         item {
-            name('Emby')
-            internalName('emby')
+            name(name)
+            internalName(name)
             category('Essentials')
             type('Entertainment')
             icon100('https://emby.media/community/uploads/inline/44692/560bd2026cb12_MB3_106_87.png')
