@@ -1,0 +1,33 @@
+name: "Fetch Emby releases"
+on:
+  schedule:
+    - cron: '0 3 * * */2' # Every second day at 03:00
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Fetch Emby releases
+        run: | 
+          EMBY_VERSION=`gh api /repos/MediaBrowser/Emby.Releases/releases/latest -q .tag_name`
+          echo $EMBY_VERSION
+          # Set environment variable
+          echo "EMBY_VERSION=$EMBY_VERSION" >> $GITHUB_ENV
+      - name: Replace application.version with emby version in app.properties
+        run: sed -i "s/application.version:.*/application.version:$EMBY_VERSION/g" app.properties
+      - name: Check if app.properties has changed
+        run: |
+          EXIT_CODE=0
+          git diff --exit-code app.properties || EXIT_CODE=$?
+           # Set environment variable
+          echo "EXIT_CODE=$EXIT_CODE" >> $GITHUB_ENV
+      - name: Commit + push changes
+        if: ${{ env.EXIT_CODE == 1 }}
+        run: |
+          git config --local user.name "Octocat"
+          git config --local user.email 'octocat@users.noreply.github.com'
+          git add app.properties
+          git commit -m "⬆️ Update emby to $EMBY_VERSION"
+          git push
