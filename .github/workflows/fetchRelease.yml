@@ -3,6 +3,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 3 * * */2' # Every 2nd day at 03:00
+  push: 
+    branches: testSetupGroovy
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -26,7 +28,6 @@ jobs:
            # Set environment variable
           echo "EXIT_CODE=$EXIT_CODE" >> $GITHUB_ENV
       - name: Install Groovy
-        if: ${{ env.EXIT_CODE == 1 }}
         uses: WtfJoke/setup-groovy@v1
         with: 
           groovy-version: "4.0.9"
