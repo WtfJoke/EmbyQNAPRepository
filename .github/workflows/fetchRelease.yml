@@ -32,7 +32,6 @@ jobs:
         with: 
           groovy-version: "4.0.9"
       - name: Regenerate repository.xml
-        if: ${{ env.EXIT_CODE == 1 }}
         run: groovy createRepository.groovy
       - name: Commit + push changes
         if: ${{ env.EXIT_CODE == 1 }}
