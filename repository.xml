@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <plugins>
-  <cachechk>20230205101054</cachechk>
+  <cachechk>20230527030031</cachechk>
   <item>
     <name>Emby Server</name>
     <internalName>Emby Server</internalName>
@@ -12,26 +12,26 @@
     <developer>Emby LLC</developer>
     <developerLink>https://emby.media/</developerLink>
     <fwVersion>4.3.4</fwVersion>
-    <version>4.7.11.0</version>
+    <version>4.7.12.0</version>
     <platform>
       <platformID>TS-NASX86</platformID>
-      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.11.0/emby-server-qnap_4.7.11.0_x86_64.qpkg</location>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.12.0/emby-server-qnap_4.7.12.0_x86_64.qpkg</location>
     </platform>
     <platform>
       <platformID>TS-X28A</platformID>
-      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.11.0/emby-server-qnap_4.7.11.0_arm_64.qpkg</location>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.12.0/emby-server-qnap_4.7.12.0_arm_64.qpkg</location>
     </platform>
     <platform>
       <platformID>TS-X32</platformID>
-      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.11.0/emby-server-qnap_4.7.11.0_arm_64.qpkg</location>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.12.0/emby-server-qnap_4.7.12.0_arm_64.qpkg</location>
     </platform>
     <platform>
       <platformID>TS-X32U</platformID>
-      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.11.0/emby-server-qnap_4.7.11.0_arm_64.qpkg</location>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.12.0/emby-server-qnap_4.7.12.0_arm_64.qpkg</location>
     </platform>
     <platform>
       <platformID>TS-XA28A</platformID>
-      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.11.0/emby-server-qnap_4.7.11.0_arm_64.qpkg</location>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.12.0/emby-server-qnap_4.7.12.0_arm_64.qpkg</location>
     </platform>
     <snapshot>https://emby.media/resources/Screenshot_2015-09-28-22-42-491.png</snapshot>
     <tutorialLink>https://support.emby.media/support/solutions/articles/44001089172-home</tutorialLink>
