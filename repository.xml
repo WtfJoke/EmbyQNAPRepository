@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <plugins>
-  <cachechk>20230826030033</cachechk>
+  <cachechk>20230826083702</cachechk>
   <item>
     <name>Emby Server</name>
     <internalName>Emby Server</internalName>
@@ -32,6 +32,18 @@
     <platform>
       <platformID>TS-XA28A</platformID>
       <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.14.0/emby-server-qnap_4.7.14.0_arm_64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-X31</platformID>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.14.0/emby-server-qnap_4.7.14.0_arm-x31.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-X41</platformID>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.14.0/emby-server-qnap-mono_4.7.14.0_arm-x41.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-ARM-X19</platformID>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.14.0/emby-server-qnap-mono_4.7.14.0_arm-x19.qpkg</location>
     </platform>
     <snapshot>https://emby.media/resources/Screenshot_2015-09-28-22-42-491.png</snapshot>
     <tutorialLink>https://support.emby.media/support/solutions/articles/44001089172-home</tutorialLink>
