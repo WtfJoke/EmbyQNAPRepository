@@ -47,6 +47,12 @@ repositoryFile.withWriter(encoding) { writer ->
                     location("${rootDownloadUrl}/${appVersion}/emby-server-qnap_${appVersion}_${value}.qpkg")
                 }
             }
+            qnap.mono_platforms.each { key, value ->
+                platform {
+                    platformID(key)
+                    location("${rootDownloadUrl}/${appVersion}/emby-server-qnap-mono_${appVersion}_${value}.qpkg")
+                }
+            }
             snapshot('https://emby.media/resources/Screenshot_2015-09-28-22-42-491.png')
             tutorialLink('https://support.emby.media/support/solutions/articles/44001089172-home')
             forumLink('https://emby.media/community/')
