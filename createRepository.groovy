@@ -4,11 +4,16 @@ encoding = 'UTF-8'
 qnap = [
     version: '4.3.4',
     platforms: [
-        'TS-NASX86': 'x86_64', 
+        'TS-NASX86': 'x86_64',
         'TS-X28A': 'arm_64',
-        'TS-X32': 'arm_64', 
+        'TS-X32': 'arm_64',
         'TS-X32U': 'arm_64',
-        'TS-XA28A': 'arm_64'
+        'TS-XA28A': 'arm_64',
+        'TS-X31': 'arm-x31',
+    ],
+    mono_platforms: [
+        'TS-X41': 'arm-x41',
+        'TS-ARM-X19': 'arm-x19'
     ]
 ]
 
