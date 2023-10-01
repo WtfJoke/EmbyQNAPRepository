@@ -27,7 +27,7 @@ jobs:
           echo "EXIT_CODE=$EXIT_CODE" >> $GITHUB_ENV
       - name: Install Groovy
         if: ${{ env.EXIT_CODE == 1 }}
-        uses: WtfJoke/setup-groovy@v1
+        uses: WtfJoke/setup-groovy@v2
         with: 
           groovy-version: "4.x"
       - name: Regenerate repository.xml
