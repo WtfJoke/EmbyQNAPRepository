@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <plugins>
-  <cachechk>20240208030723</cachechk>
+  <cachechk>20240210103037</cachechk>
   <item>
     <name>Emby Server</name>
     <internalName>Emby Server</internalName>
@@ -15,6 +15,10 @@
     <version>4.8.1.0</version>
     <platform>
       <platformID>TS-NASX86</platformID>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.8.1.0/emby-server-qnap_4.8.1.0_x86_64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TS-X73</platformID>
       <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.8.1.0/emby-server-qnap_4.8.1.0_x86_64.qpkg</location>
     </platform>
     <platform>
