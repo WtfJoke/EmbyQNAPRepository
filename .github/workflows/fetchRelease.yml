@@ -2,7 +2,7 @@ name: "Fetch Emby releases"
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * */2' # Every 2nd day at 03:00
+    - cron: '0 4 * * */2' # Every 2nd day at 04:00
 jobs:
   fetch:
     runs-on: ubuntu-latest
