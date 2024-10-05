@@ -11,6 +11,8 @@ qnap = [
         'TS-X32U': 'arm_64',
         'TS-XA28A': 'arm_64',
         'TS-X31': 'arm-x31',
+        'TVS-873': 'x86_64',
+        'TVS-873e': 'x86_64',
     ],
     mono_platforms: [
         'TS-X41': 'arm-x41',
