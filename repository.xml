@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <plugins>
-  <cachechk>20241001041507</cachechk>
+  <cachechk>20241005082950</cachechk>
   <item>
     <name>Emby Server</name>
     <internalName>Emby Server</internalName>
@@ -40,6 +40,14 @@
     <platform>
       <platformID>TS-X31</platformID>
       <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.8.10.0/emby-server-qnap_4.8.10.0_arm-x31.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TVS-873</platformID>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.8.10.0/emby-server-qnap_4.8.10.0_x86_64.qpkg</location>
+    </platform>
+    <platform>
+      <platformID>TVS-873e</platformID>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.8.10.0/emby-server-qnap_4.8.10.0_x86_64.qpkg</location>
     </platform>
     <platform>
       <platformID>TS-X41</platformID>
