@@ -17,7 +17,7 @@ jobs:
       - name: Replace application.version with emby version in app.properties
         run: sed -i "s/application.version:.*/application.version:$EMBY_VERSION/g" app.properties
       - name: Install Groovy
-        uses: WtfJoke/setup-groovy@v2
+        uses: WtfJoke/setup-groovy@v3
         with: 
           groovy-version: "4.x"
       - name: Regenerate repository.xml
