@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <plugins>
-  <cachechk>20251002040951</cachechk>
+  <cachechk>20251111041335</cachechk>
   <item>
     <name>Emby Server</name>
     <internalName>Emby Server</internalName>
@@ -12,50 +12,50 @@
     <developer>Emby LLC</developer>
     <developerLink>https://emby.media/</developerLink>
     <fwVersion>4.3.4</fwVersion>
-    <version>4.9.1.80</version>
+    <version>4.9.1.90</version>
     <platform>
       <platformID>TS-NASX86</platformID>
-      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.80/emby-server-qnap_4.9.1.80_x86_64.qpkg</location>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.90/emby-server-qnap_4.9.1.90_x86_64.qpkg</location>
     </platform>
     <platform>
       <platformID>TS-X73</platformID>
-      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.80/emby-server-qnap_4.9.1.80_x86_64.qpkg</location>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.90/emby-server-qnap_4.9.1.90_x86_64.qpkg</location>
     </platform>
     <platform>
       <platformID>TS-X28A</platformID>
-      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.80/emby-server-qnap_4.9.1.80_arm_64.qpkg</location>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.90/emby-server-qnap_4.9.1.90_arm_64.qpkg</location>
     </platform>
     <platform>
       <platformID>TS-X32</platformID>
-      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.80/emby-server-qnap_4.9.1.80_arm_64.qpkg</location>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.90/emby-server-qnap_4.9.1.90_arm_64.qpkg</location>
     </platform>
     <platform>
       <platformID>TS-X32U</platformID>
-      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.80/emby-server-qnap_4.9.1.80_arm_64.qpkg</location>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.90/emby-server-qnap_4.9.1.90_arm_64.qpkg</location>
     </platform>
     <platform>
       <platformID>TS-XA28A</platformID>
-      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.80/emby-server-qnap_4.9.1.80_arm_64.qpkg</location>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.90/emby-server-qnap_4.9.1.90_arm_64.qpkg</location>
     </platform>
     <platform>
       <platformID>TS-X31</platformID>
-      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.80/emby-server-qnap_4.9.1.80_arm-x31.qpkg</location>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.90/emby-server-qnap_4.9.1.90_arm-x31.qpkg</location>
     </platform>
     <platform>
       <platformID>TVS-873</platformID>
-      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.80/emby-server-qnap_4.9.1.80_x86_64.qpkg</location>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.90/emby-server-qnap_4.9.1.90_x86_64.qpkg</location>
     </platform>
     <platform>
       <platformID>TVS-873e</platformID>
-      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.80/emby-server-qnap_4.9.1.80_x86_64.qpkg</location>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.90/emby-server-qnap_4.9.1.90_x86_64.qpkg</location>
     </platform>
     <platform>
       <platformID>TS-X41</platformID>
-      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.80/emby-server-qnap-mono_4.9.1.80_arm-x41.qpkg</location>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.90/emby-server-qnap-mono_4.9.1.90_arm-x41.qpkg</location>
     </platform>
     <platform>
       <platformID>TS-ARM-X19</platformID>
-      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.80/emby-server-qnap-mono_4.9.1.80_arm-x19.qpkg</location>
+      <location>https://github.com/MediaBrowser/Emby.Releases/releases/download/4.9.1.90/emby-server-qnap-mono_4.9.1.90_arm-x19.qpkg</location>
     </platform>
     <snapshot>https://emby.media/resources/Screenshot_2015-09-28-22-42-491.png</snapshot>
     <tutorialLink>https://support.emby.media/support/solutions/articles/44001089172-home</tutorialLink>
