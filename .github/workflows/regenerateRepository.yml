@@ -7,7 +7,7 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Fetch Emby releases
         run: | 
           EMBY_VERSION=`gh api /repos/MediaBrowser/Emby.Releases/releases/latest -q .tag_name`
